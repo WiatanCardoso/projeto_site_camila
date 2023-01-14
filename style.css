@@ -32,19 +32,22 @@ body {
   background-position: top center;
   background-size: cover;
   height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body * {
   font-family: 'Inter', sans-serif;
   color: var(--text-color);
-}
 
+}
 
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
+  margin: 5px auto 0px;
   padding: 0 24px;
+
 }
 
 /* profile */
@@ -154,7 +157,7 @@ ul li a:hover {
   display: flex;
   justify-content: center;
 
-  padding: 24px 0;
+  padding: 5px 0;
   font-size: 24px;
 }
 
@@ -197,6 +200,7 @@ footer {
   from {
     left: 0;
   }
+
   to {
     left: 50%;
   }
