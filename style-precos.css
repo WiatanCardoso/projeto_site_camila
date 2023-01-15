@@ -15,7 +15,7 @@ body {
     color: #260F1C;
     font-family: 'Roboto', sans-serif;
     overflow-x: hidden;
-    overflow-y: hidden;
+    overflow-y: auto;
     padding: 0 24px;
 }
 
