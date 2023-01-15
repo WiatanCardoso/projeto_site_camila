@@ -31,9 +31,9 @@ body {
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   overflow-x: hidden;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 body * {
@@ -47,6 +47,7 @@ body * {
   max-width: 588px;
   margin: 5px auto 0px;
   padding: 0 24px;
+  height: 100vh;
 
 }
 
@@ -178,13 +179,14 @@ ul li a:hover {
 footer {
   padding: 24px 0;
 
-  /* alinhamento de texto é assim */
   text-align: center;
 
   font-size: 14px;
+  
 }
 
 /* media queries */
+
 @media(min-width:700px) {
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
@@ -194,6 +196,7 @@ footer {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 }
+
 
 /* animation */
 @keyframes slide-in {
