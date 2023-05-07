@@ -73,39 +73,23 @@ li.procedimentos {
     margin-bottom: 8px;
 }
 
-.preco {
-    margin-left: auto;
-}
-
 
 
 footer {
     display: flex;
     justify-content: center;
-    padding: 5px 0;
-
 
 }
 
-footer a {
-    margin: 20px;
-    text-align: center;
-
-}
 
 footer p {
     margin-top: 2px;
-}
-
-
-a {
-    text-decoration: none;
-    color: #260F1C;
-
-}
-
-a:hover {
+    padding-right: 60px;
     color: #995000;
-    transition-duration: .5s;
 
+    
 }
+
+
+
+
